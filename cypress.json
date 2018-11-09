@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://local.admin.sipin.latest.dev.e.sipin.one/",
+  "integrationFolder": "src",
+  "testFiles": "cypress-test/**/*.cypress.spec.js",
+  "video": false,
+  "screenshotsFolder": "cypress/screenshots",
+  "viewportHeight": 800,
+  "viewportWidth": 1400
+}

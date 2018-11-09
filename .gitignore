@@ -1,0 +1,16 @@
+.DS_*
+.idea
+*.log
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_componets
+cypress/screenshots
+
+*.sublime*
+
+jsconfig.json
+
+dist
+.happypack

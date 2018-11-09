@@ -1,0 +1,36 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "useBuiltIns": true,
+        "targets": {
+          "ie": 9,
+          "uglify": true
+        }
+      }
+    ],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true
+      }
+    ],
+    "syntax-dynamic-import",
+    "add-module-exports",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+**/node_modules/**
+**/bower_components/**
+**/assets/**
+**/js/_ie/**
+**/js/_vendor/**
+**/js/modules/sortable/**
+**/scripts/**
+**/dist/**
+**/apis/**
+**/cypress-test/**
